@@ -1,0 +1,19 @@
+Description
+Dzs and Sproblvem love mathmatics, so when they play games they also want to find out the inner rules of the game. 
+The game they played is very classic. 
+There is a pile of stones, two players can pick 2,3 or 5 stones each round, if the player can't pick stones from thepile, for instance if there is only 1 stone left, he will lose the game. 
+This time Sproblvem will be the "first pick" player ,he want to know if both of them play perfect who will win? 
+Input
+At the first line is a number c (1<= c <= 1025), means there will be c case.
+Then follow c lines, each line have number n (0 <= n <= 1000000) represent that pile have n stones.
+Output
+For each case print one line, if Sproblvem will win the game, output "Sproblvem" otherwise output "Dzs".
+Sample Input
+3
+13
+14
+16
+Sample Output
+Sproblvem
+Dzs
+Sproblvem

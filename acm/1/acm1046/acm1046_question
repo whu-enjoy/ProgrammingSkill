@@ -1,0 +1,27 @@
+Description
+What a hot day! The summer of Wuhan is always hot. One day, Flymouse and his classmates went to the natatorium together. The natatorium developed an amusing team game. They built a “bridge” in the center of the pool. The bridge only could hold two students. Strangely, it could be changed 180 degrees. By this way two students can change their orders when they are neighbors. Now, everyone of N students is given an unique number between 1 and N. After several changes, they form a queue by the orders:1  2  3  4 …… N.Flymouse is not clever enough and cannot solve this problem by the minimum times of changes. So he asks for your help.
+Input
+The first line contains a single integer T, the number of test cases, followed by two lines for each test case. The first line for 
+each test case contains a single integer N(0<N<=3000), the second line for each test case contains N numbers, the initial orders of the queue.
+Output
+There should be one output line per test case containing the minimum times of changes.
+Sample Input
+1
+4
+4 3 2 1
+Sample Output
+6
+Hint
+step1: 4 2 3 1
+
+step2: 2 4 3 1
+
+step3: 2 4 1 3
+
+step4: 2 1 4 3
+
+step5: 1 2 4 3
+
+step6: 1 2 3 4
+
+this is a feasible solution

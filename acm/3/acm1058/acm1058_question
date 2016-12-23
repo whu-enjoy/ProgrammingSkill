@@ -1,0 +1,20 @@
+Description
+While traveling at New York, Aftermath finds a new vending machine. This machine can only Accept three kinds of coins: 1$, 2$ and 3$. 
+However, he has only a cheque of N$. He has to enter a bank to exchange it for cash. Now he is interested in the problem: how many ways can 
+the bank exchanges the cheque for cash? But he is not smart enough to solve this problem. He asks you for help calculate the number of 
+different ways to exchange the cheque. The input is ended by 0. 
+
+Input
+Given a cheque of N$(0<n<=10^9), The input is ended by 0.
+Output
+Calculate the number of different ways to exchange the cheque.
+Sample Input
+1 
+2
+3
+0
+Sample Output
+1
+2
+3 
+

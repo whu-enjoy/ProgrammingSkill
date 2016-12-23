@@ -1,0 +1,24 @@
+cription
+There is a billiard table with acute triangle shape, and there are pockets at the three corners. A billiard ball hits the side of the table not at a 
+corner, it is reflected in the mirror direction. And it continues to travel on the table and we assume that the energy of this ball will not be 
+consumed, so the velocity of the ball is a constant number in the running process. 
+ 
+Now, you place the ball on any side of this billiard table and decide the slope of the line along which the ball starts at the origin. The trajectory 
+of the ball seems too complex to you, right? In order to simply this question, we will set restriction that the ball should bounce each side exactly 
+once and return to its start position at last. Under this restriction, can you find such trajectory that the time of ball running along it is shorter 
+than any other trajectories which satisfy this restriction? 
+
+Input
+There are N test cases. The number of test cases N is given in the first line of the input file. For each test case, it contains six 
+integers (you are ensured that the absolute value of all the integers are less than) which specify the vertex point coordinates of the 
+acute triangle.
+Output
+You should output the length of the shortest trajectory.The answer should be accurate to three fractional digits exactly one line for each test case.
+
+Sample Input
+2
+0 0 2 0 1 2
+0 0 2 0 1 3
+Sample Output
+3.200
+3.600

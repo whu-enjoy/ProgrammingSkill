@@ -1,0 +1,16 @@
+Description
+On the way home, DragonFly has got an extraordinarily large apple. He would like to share it with his friends. Now he wants to get 
+as many pieces as possible with n cuts. But he cannot decide how to cut it, because the apple is rather delicious. Now he needs your help.
+Input
+    Each line contains an integer n (0<= n <= 100000).
+	    Input will be terminated by EOF.
+		Output
+		    You should print the largest number of pieces by n cuts of each case .
+			Sample Input
+			1
+			2
+			3
+			Sample Output
+			2
+			4
+			8

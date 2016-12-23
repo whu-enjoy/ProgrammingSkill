@@ -1,0 +1,24 @@
+Description
+Cryptography deals with methods of secret communication that transform a message (the plaintext) into a disguised form (the ciphertext) 
+	so that no one seeing the ciphertext will be able to figure out the plaintext except the intended recipient. Transforming the plaintext to 
+	the ciphertext is encryption; transforming the ciphertext to the plaintext is decryption. 
+	Ascend is a simple encryption method that only deal with capital letters. It shifts the i-th letter in a word forwards by i steps in alphabet, 
+	and you may assume the alphabet is circular in that letter Z will follow the letter A. 
+	For example: I ascend WHU to XJX. The process is as follow: 
+	1. I shift the first letter W forwards 1 step to X. 
+	2. I shift the second letter H forwards 2 steps to J. 
+	3. I shift the third letter U forwards 3 steps to X. 
+	Your task is to write a program that can decrypt the messages which are ascended. 
+	Input
+	The input file contains one or more test cases, followed by a line containing only the symbol $ that signals the end of the file. 
+	Each test case is on a line by itself and consists of an ascended message containing at least one and at most 100 capital letters. 
+	You may assume the message dose not contain other characters.
+	Output
+	For each test case, output the decrypted message on a line by itself.
+	Sample Input
+	XJX
+	BEPMHVJ
+	$
+	Sample Output
+	WHU
+	ACMICPC

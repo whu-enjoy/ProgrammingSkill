@@ -1,0 +1,30 @@
+Description
+The total available floor space on the ark would have been over 100,000 square feet, which would be more floor space than in 20 standard sized 
+basketball courts. But in our story, we assume that the land dwelling air breathing animals is so many that the Ark can't contain all of them. 
+
+We know that the size of each kind of animal is different and the God has his own favorite. The God assigns each kind of animal a point to 
+show his favorite, and then lists points of every kind of animal to Noah. Noah must let some kinds of animals into the Ark and refuse 
+the others to maximize the total points. Noah cries for he doesn't know computer programming. 
+
+It 's an easy problem for you,right? So,rescue Noah!
+Input
+There will be multiple test cases. For each test case,the first line contains an integer n(n<=100) representing the number of species of the land 
+dwelling air breathing animals all over the world.
+In the next n lines,there will be two integers in each line,separated by a single space,where the first integer shows the size of a kind of animal 
+and the second integer shows the point. The size and the point for all the animals will not exceed 10000.
+The last line contains an integer s(s <= 100,000) indicating the size of Noah's Ark.
+Output
+For each test case,you should output a line that contains a single integer to describe the maximal point Noah can get.
+Sample Input
+2
+10 20
+20 30
+30
+3
+10 20
+30 30
+20 20
+30
+Sample Output
+50
+40

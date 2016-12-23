@@ -1,0 +1,43 @@
+cription
+Flymouse's English is very poor. Therefore, he always makes some mistakes in his composition.
+
+For example, in sentence "flymouse is poor in EnGlish but his girlfriend is good at English" are there two mistakes:
+
+  1. Initial letter f of the first word flymouse of this sentence is not a capital letter.
+
+    2. EnGlish's medial letter G is a capital letter.
+
+	Notice this, you can correct the mistake by the following two steps:
+
+	  1. Make the initial letter of the first word of the sentence to be capital.
+
+	    2. Make the non-initial letters of the non-first words of the sentence to be small.
+
+		You can assure that by doing this, the new sentence will be always a correct one.
+
+		For this sample, the correct form is:
+
+		Flymouse is poor in English but his girlfriend is good at English
+
+		Input
+		    The first line contains a single integer t, indicating the number of test cases, followed by one line for each test case. The line for each test case contains a sentence from flymouse's composition. the length of the sentence will be not larger than 10000. For simplicity, punctuations will always be omitted.
+			Output
+			There should be one output line per test case containing the correct sentence.
+			Sample Input
+			1
+			flymouse is poor in EnGlish but his girlfriend is good at English
+
+			Sample Output
+			Flymouse is poor in English but his girlfriend is good at English
+			Hint
+			本题要求能处理t组数据，代码框架样例：
+
+			scanf("%d", &t);
+
+			for (i = 0; i < t; i++)
+
+{
+
+	    //处理每一组数据并输出
+
+}

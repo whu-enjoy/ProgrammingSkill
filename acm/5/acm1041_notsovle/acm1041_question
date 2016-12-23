@@ -1,0 +1,45 @@
+Description
+MagicForest has many trees, such as linetree , suffix-tree , red-black tree.... Do you master all the trees? 
+But don't worry, in this problem I will not talk about trees.Instead, I am going to introduce some animals in MagicForest. The first is kingkong. 
+Kingkong is one kind of dangerous animals. So if you meet kingkong , you will die. The second is mathdog. Mathdog is a wild dog, but it is not 
+so dangerous as kingkong. It will only bite you. 
+Amaze is a beautiful girl. Unfortunately she is lost in MagicForest, and of course Magicpig worrys about her very much. Magicpig knows that 
+if he meets kingkongs, he will die. He also knows that mathdogs will bite him, and after two bites of mathdogs(including two), Magicpig will also 
+die. How poor Magicpig is! 
+Input
+    The first line of the input is a single number t (0<t<20) , indicating the number of test cases.
+	Each test case is a map of MagicForest preceded by a line with a number n(0<n<=30). MagicForest is a matrix of  n * n cells:
+	    (1) "p" means Magicpig. 
+		    (2) "a"  means Amaze. 
+			    (3) "r"  means road. 
+				    (4) "k"  means kingkong. 
+					    (5) "d" means  mathdog .
+						    Note that Magicpig can only move in four directions : up, down , left, right.
+							Output
+							    For each test case, if Magicpig can find Amaze output "Yes" in a line, or output "No" in a line.
+								Sample Input
+								4
+								3
+								pkk
+								rrd
+								rda
+								3
+								prr
+								kkk
+								rra
+								4
+								prrr
+								rrrr
+								rrrr
+								arrr
+								5
+								prrrr
+								ddddd
+								ddddd
+								rrrrr
+								rrrra
+								Sample Output
+								Yes
+								No
+								Yes
+								No

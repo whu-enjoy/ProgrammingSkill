@@ -1,0 +1,35 @@
+Description
+March is wonderful in Wuhan University for the blooming cherry blossoms. Walking in the campus, you can smell the fragrance and feel the 
+romance with the tardiness falling of cherry blossom petals, and after a while you will see the ground will be covered by the beautiful 
+blossom petals. 
+   
+Now, here comes the problem: the figure shown below is the cherry blossom petals on the ground, where the black points stand for blossom 
+petals. And this figure on the left is up-down symmetric as it is possible to cut the figure into two identical halves by the dashed line 
+shown in it, but the figure on the right is not. 
+ 
+This figure shows the sample input data 
+
+Given such a figure, can you tell me whether it is up-down symmetric or not. All the black points are different from each other. 
+Input
+There are multiple test cases.For each test case, it contains:
+Line 1: One integer N (1<=N<=1000) which specifies the number of the cherry blossom petals in this test case.
+Line 2?N+1: Two integers X and Y (you are ensured that the absolute value of both the integers are less than) which specify the position of the 
+cherry blossom petal.
+Input will be terminated by EndOfFile.
+Output
+Print exactly one line for each test case. You should output YES if the figure is up-down symmetric, else output NO.
+Sample Input
+5
+0 0
+2 0
+1 1
+0 2
+2 2
+4
+0 0
+2 0
+1 1
+0 2
+Sample Output
+YES
+NO

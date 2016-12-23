@@ -1,0 +1,26 @@
+Dscription
+There are N boxes on one straight line which is long enough. 
+They move at the same speed, but their directions may be different. That is, some boxes 
+may move left, while the others move right. As a beautiful girl fond of algorithm and 
+programming, Alice finds that two boxes moving toward each other will collide, and 
+after collision their directions change while their speeds remain the same. Alice also 
+knows that the boxes will not collide any more after many times of collision, she names 
+this final status as the stable status. The task is to help her count the number of 
+collisions before reach the stable status.
+Input
+There are multiple test cases. For each test case, the first line is an integer N (1 <= N <= 10000) representing the number of boxes, and the second line is N integers,
+	  separated by spaces. The i-th integer will be -1 if the i-th box move left, otherwise, 
+	  it will be 1.
+	  N = -1 indicates the end of input and should not be processed by your program.
+	  Output
+	  For each test case, output an integer which is the number of collisions to reach the 
+	  stable status on a single line in the format as indicated.
+	  Sample Input
+	  3
+	  1 -1 1
+	  4
+	  1 -1 1 -1
+	  -1
+	  Sample Output
+	  Case 1: 1
+	  Case 2: 3

@@ -1,0 +1,31 @@
+Description
+When placing a board with a pinhole in the middle between an object and a screen, the reversed image of the object will 
+appear on the screen. That is the so-called pinhole imaging. 
+
+ 
+
+Assume that we have a candle and a screen. We know the distance A between the pinhole and the candle. We also know the 
+distance B between the pinhole and the screen. We want to know the height of the fire displayed on the screen when we 
+know the height H of the real fire. 
+You could assume that the pinhole is very tiny and the screen is large enough. 
+
+Input
+The input consists of multiple test cases. The first line of input contains an integer T, which is the number of test cases.
+
+Each test case is on a separated line, and it consists three integers: A, B, H), separated by ONE whitespace.
+
+[Technical Specification]
+T is an integer, and T <= 10.
+A, B, H are integers, and 1 <= A, B, H <= 1000,000.
+
+Output
+For each test case, print a single line contains the height of the fire displayed on the screen, rounded to two fractional 
+digits.
+
+Sample Input
+2
+1 1 1
+2 1 2
+Sample Output
+1.00
+1.00

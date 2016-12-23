@@ -1,0 +1,22 @@
+Description
+My lovely sister QingQing has many books. One day she numbers her books with integer. Of cause same books are marked by 
+the same number. When all the books are marked, it is easy to find how many are the same. :-) 
+Now QingQing has a list of books( given by numbers they are marked). In order to buy a gift for her dear brother, she plans to sell 
+some books. But she wants to keep one copy for each kind. After selling, what books is left? 
+Please write a program to tell QingQing the answer. 
+
+Input
+First line is an number N(1<=N<=50000), meaning the books that QingQing has before selling.
+Next line will contain N numbers, the marks of the books, separated by a single space.(the marks are between 0 and 999, inclusively)
+	Output
+	A line for each test case contains the marks of the books after selling.(sorted in non-descending order).
+	Two numbers are separated by a single space.
+
+	Sample Input
+	5
+	1 2 5 4 5
+	2
+	1 2
+	Sample Output
+	1 2 4 5
+	1 2

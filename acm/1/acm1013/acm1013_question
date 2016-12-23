@@ -1,0 +1,30 @@
+Description
+Some beads are embedded in a bracelet, and each beads is carved with a lower case letter, as the follow figure shows: 
+ 
+If we read the letters in counter clockwise with different initial position, we may get different strings. The above example, we can read 6 strings: 
+acabdb 
+cabdba 
+abdbac 
+bdbaca 
+dbacab 
+bacabd 
+Sort these strings in lexical order, we obtain: 
+abdbac 
+acabdb 
+bacabd 
+bdbaca 
+cabdba 
+dbacab 
+What we need is the first string: abdbac. 
+
+Input
+A string of lower case letters representing the letters carved on the bracelet (in counter clockwise order). 
+The length of the string is no more than 100.
+Output
+Output the first string of all the possible strings after sorting them in lexical order.
+Sample Input
+acabdb
+kkisverystupid
+Sample Output
+abdbac
+dkkisverystupi

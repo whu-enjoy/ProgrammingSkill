@@ -1,0 +1,29 @@
+Description
+There is a story that people who have the similar names will get along well with each other.So when finding a girl friend, you can 
+take this point into consideration ^_^. 
+In MagicStar , people have a way to count the comparability between two names : the comparability between "kinfkong" and "kingkong" 
+is 3 because they have the same prefix "kin", while it is 0 between the names "kinfkong" and "dingkong" which have not common prefix. 
+Every person has an ID and a name. Dr.Longge want to count the sum of the comparabilities of q pairs of persons in the same set. 
+Can you help him? 
+Input
+    In the first line there is n (1<n<=6000) indicating the number of people in MagicStar. The following n lines each containing an ID 
+	and a name for a person. The length of the names is at least one but no more than 1000.IDs are in the range of 1 and n. 
+	No two IDs are the same. Next line is a number m. Then m sets follow.Each set starts with a number q in a line, meaning there are q queries 
+	in this set. Every query is made up of two IDs in a line. (m*q <= 10^6) .
+	Output
+	    You task is to output m numbers, one in a line . The ith number is  total comparabilities of the ith set.
+		Sample Input
+		4
+		1 kingkong
+		2 dinfkong
+		3 kinfkong
+		4 kinfkonq
+		2
+		2
+		1 2
+		3 4
+		1
+		1 2
+		Sample Output
+		7
+		0
